@@ -6,9 +6,11 @@
         <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/drawable/bg_splash_screen.xml" value="0.19635416666666666" />
         <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/drawable/splash_screen.xml" value="0.19635416666666666" />
         <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/activity_main.xml" value="0.17604166666666668" />
-        <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/fragment_all_news.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/fragment_all_news.xml" value="0.17570700046360685" />
         <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/fragment_popular.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/fragment_top.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/news_headline.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/practice/NewsApp2/app/src/main/res/layout/row_item_news.xml" value="0.22" />
       </map>
     </option>
   </component>
