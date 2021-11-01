@@ -3,10 +3,12 @@
 ## Senin, 25 Oktober 2021 Saya telah belajar:
 * Menggunakan GitHub untuk share project.
 * Menambahkan SplashScreen
-![Screenshot_2021-10-31-11-37-50-490_com example newsapp](https://user-images.githubusercontent.com/36739722/139617073-bcefd374-90cb-40f1-a87c-615feaa74042.jpg)
+
+![image 15](https://user-images.githubusercontent.com/36739722/139630924-3b76ca9f-fee4-46a3-8242-175d75be8006.png)
 
 ## Senin, 1 November 2021 Saya telah belajar:
 * Menyusun tampilan utama dengan TabLayoutMediator
 * Menampilkan data berita dengan RecyclerView di Fragment
 * Mempelajari tentang Fragment & Fragment Lifecycle
-![image](https://user-images.githubusercontent.com/36739722/139621984-85630f9f-71cb-45f4-b6b1-bf82683d1e74.png)
+
+![image 16](https://user-images.githubusercontent.com/36739722/139630946-d111d737-183b-4222-bb2d-84612215a7f6.png)
