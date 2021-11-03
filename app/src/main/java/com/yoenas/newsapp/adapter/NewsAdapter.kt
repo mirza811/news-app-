@@ -1,4 +1,4 @@
-package com.yoenas.newsapp
+package com.yoenas.newsapp.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.yoenas.newsapp.R
+import com.yoenas.newsapp.data.News
 
 class NewsAdapter(private val listNews: ArrayList<News>) :
     RecyclerView.Adapter<NewsAdapter.MyViewHolder>() {

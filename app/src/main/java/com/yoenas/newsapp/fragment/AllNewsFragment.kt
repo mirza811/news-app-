@@ -1,4 +1,4 @@
-package com.yoenas.newsapp
+package com.yoenas.newsapp.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.yoenas.newsapp.R
+import com.yoenas.newsapp.adapter.NewsAdapter
+import com.yoenas.newsapp.data.DataNews
+import com.yoenas.newsapp.initViewHeadline
 
 class AllNewsFragment : Fragment() {
 
@@ -21,6 +25,8 @@ class AllNewsFragment : Fragment() {
         val rvNews = view.findViewById<RecyclerView>(R.id.rv_all_news)
         rvNews.layoutManager = LinearLayoutManager(view.context)
         rvNews.adapter = NewsAdapter(DataNews.listAllNews)
+
+        initViewHeadline(view, 0)
 
         return view
     }

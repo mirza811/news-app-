@@ -1,4 +1,4 @@
-package com.yoenas.newsapp
+package com.yoenas.newsapp.data
 
 data class News(
     val title: String,
