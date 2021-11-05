@@ -13,7 +13,8 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
             app:contentScrim="@color/white"
             app:layout_anchor="@+id/app_bar_detail"
             app:layout_anchorGravity="center"
@@ -40,8 +41,9 @@
                     android:id="@+id/tv_date_detail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:textColor="@color/gray_text"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="@id/tv_title_detail"
                     app:layout_constraintTop_toBottomOf="@+id/tv_title_detail" />
 
@@ -49,9 +51,11 @@
                     android:id="@+id/tv_separate_detail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
                     android:text="@string/txt_separate"
                     android:textColor="@color/gray_text"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     app:layout_constraintBaseline_toBaselineOf="@id/tv_date_detail"
                     app:layout_constraintStart_toEndOf="@id/tv_date_detail" />
 
@@ -60,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/gray_text"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     app:layout_constraintBaseline_toBaselineOf="@id/tv_date_detail"
                     app:layout_constraintStart_toEndOf="@id/tv_separate_detail" />
 

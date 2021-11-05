@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApp">
         <activity
-            android:theme="@style/Theme.NewsApp.NoActionBar"
             android:name=".DetailActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.NewsApp.NoActionBar" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
