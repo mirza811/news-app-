@@ -1,5 +1,9 @@
 package com.yoenas.newsapp.data
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class News(
     val title: String,
     val content: String,
@@ -8,4 +12,4 @@ data class News(
     val time: String,
     val category: String,
     val image: Int
-)
+) : Parcelable
