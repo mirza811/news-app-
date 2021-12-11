@@ -1,10 +1,10 @@
-package com.yoenas.newsapp
+package com.mirza.newsapp
 
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.yoenas.newsapp.data.News
+import com.mirza.newsapp.data.News
 
 class DetailActivity : AppCompatActivity() {
 

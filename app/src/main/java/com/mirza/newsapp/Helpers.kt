@@ -1,12 +1,11 @@
-package com.yoenas.newsapp
+package com.mirza.newsapp
 
 import android.content.Context
 import android.content.Intent
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import com.google.android.material.card.MaterialCardView
-import com.yoenas.newsapp.data.DataNews
+import com.mirza.newsapp.data.DataNews
 
 fun initViewHeadline(context: Context, view: View, position: Int) {
     val imgHeadline: ImageView = view.findViewById(R.id.img_news_headline)

@@ -1,11 +1,11 @@
-package com.yoenas.newsapp
+package com.mirza.newsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import com.yoenas.newsapp.adapter.SectionPagerAdapter
+import com.mirza.newsapp.adapter.SectionPagerAdapter
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

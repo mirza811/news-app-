@@ -1,4 +1,4 @@
-package com.yoenas.newsapp
+package com.mirza.newsapp
 
 import org.junit.Test
 

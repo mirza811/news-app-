@@ -1,6 +1,6 @@
-package com.yoenas.newsapp.data
+package com.mirza.newsapp.data
 
-import com.yoenas.newsapp.R
+import com.mirza.newsapp.R
 
 object DataNews {
     private val titleAll = arrayOf(

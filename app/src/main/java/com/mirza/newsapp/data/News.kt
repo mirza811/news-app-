@@ -1,4 +1,4 @@
-package com.yoenas.newsapp.data
+package com.mirza.newsapp.data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

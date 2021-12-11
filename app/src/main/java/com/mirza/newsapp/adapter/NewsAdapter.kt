@@ -1,4 +1,4 @@
-package com.yoenas.newsapp.adapter
+package com.mirza.newsapp.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.yoenas.newsapp.DetailActivity
-import com.yoenas.newsapp.R
-import com.yoenas.newsapp.data.News
+import com.mirza.newsapp.DetailActivity
+import com.mirza.newsapp.R
+import com.mirza.newsapp.data.News
 
 class NewsAdapter(private val listNews: ArrayList<News>) :
     RecyclerView.Adapter<NewsAdapter.MyViewHolder>() {

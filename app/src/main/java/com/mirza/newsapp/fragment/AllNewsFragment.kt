@@ -1,4 +1,4 @@
-package com.yoenas.newsapp.fragment
+package com.mirza.newsapp.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.yoenas.newsapp.R
-import com.yoenas.newsapp.adapter.NewsAdapter
-import com.yoenas.newsapp.data.DataNews
-import com.yoenas.newsapp.initViewHeadline
+import com.mirza.newsapp.R
+import com.mirza.newsapp.adapter.NewsAdapter
+import com.mirza.newsapp.data.DataNews
+import com.mirza.newsapp.initViewHeadline
 
 class AllNewsFragment : Fragment() {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yoenas.newsapp">
+    package="mirza.newsapp">
 
     <application
         android:allowBackup="true"
@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApp">
         <activity
-            android:name=".DetailActivity"
+            android:name="com.mirza.newsapp.DetailActivity"
             android:exported="true"
             android:theme="@style/Theme.NewsApp.NoActionBar" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.mirza.newsapp.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/NoActionBar">
             <intent-filter>
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.mirza.newsapp.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.NewsApp.NoActionBar" />
     </application>

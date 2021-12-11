@@ -1,11 +1,11 @@
-package com.yoenas.newsapp.adapter
+package com.mirza.newsapp.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.yoenas.newsapp.fragment.AllNewsFragment
-import com.yoenas.newsapp.fragment.PopularFragment
-import com.yoenas.newsapp.fragment.TopFragment
+import com.mirza.newsapp.fragment.AllNewsFragment
+import com.mirza.newsapp.fragment.PopularFragment
+import com.mirza.newsapp.fragment.TopFragment
 
 class SectionPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
